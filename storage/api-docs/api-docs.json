@@ -1,0 +1,37 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "API de Redanmax",
+        "description": "API de ejempo para clase de desarrollo de Backend y APIs",
+        "contact": {
+            "name": "Rebeca Carolina Ramirez Rodriguez",
+            "url": "https://localhost/api/",
+            "email": "reberamirez99@gmail.com"
+        },
+        "license": {
+            "name": "Apache 2.0",
+            "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+        },
+        "version": "1.0.0"
+    },
+    "paths": {
+        "/api/ejecutar": {
+            "get": {
+                "tags": [
+                    "ejecutar"
+                ],
+                "summary": "Este es un endpoint o metodo para obtener datos y mostrarlos al usuario",
+                "description": "Descripcion de prueba para la clase de desarrollo de backend y API desarrollada por todo el equipo 19/10/2023",
+                "operationId": "ed42aafacf51d9aa570647800fcaa0e9",
+                "responses": {
+                    "200": {
+                        "description": "Se devuelve todos los registros cuando la consulta sea satisfecha"
+                    },
+                    "500": {
+                        "description": "No se pudo realizar la ejecución al parecer hubo un error interno"
+                    }
+                }
+            }
+        }
+    }
+}
